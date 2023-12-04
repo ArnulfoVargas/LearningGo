@@ -1,0 +1,10 @@
+go 1.21.4
+
+use (
+	./001_Main
+	./002_Variables
+	./003_Input
+	./004_Conditionals
+	./005_Loops
+	./006_Pointers
+)
