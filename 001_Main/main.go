@@ -9,6 +9,8 @@ import (
 	"inputs"
 	"conditionals"
 	"loops"
+	"pointers"
+	"functions"
 	)
 
 func main() {
@@ -23,4 +25,8 @@ func main() {
 	conditionals.ConditionalsTest()
 
 	loops.LoopsTest()
+
+	pointers.PointersTest()
+
+	functions.FunctionsTest()
 }
