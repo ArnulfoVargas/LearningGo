@@ -8,4 +8,5 @@ use (
 	./005_Loops
 	./006_Pointers
 	./007_Functions
+	./008_DataStructures
 )

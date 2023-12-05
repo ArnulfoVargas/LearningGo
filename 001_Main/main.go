@@ -11,6 +11,7 @@ import (
 	"loops"
 	"pointers"
 	"functions"
+	"datastructures"
 	)
 
 func main() {
@@ -29,4 +30,6 @@ func main() {
 	pointers.PointersTest()
 
 	functions.FunctionsTest()
+
+	datastructures.DataStructures()
 }
