@@ -10,6 +10,7 @@ import (
 	functions "main/007_Functions"
 	datastructures "main/008_DataStructures"
 	mapsObject "main/009_Maps"
+	"github.com/mariomac/analizador" 
 )
 
 func main() { 
@@ -22,4 +23,7 @@ func main() {
 	functions.FunctionsTest()
 	datastructures.DataStructures()
 	mapsObject.MapsTest()
+
+	// Imported from Github
+	analizador.PrintEstadistica("Arnulfo")
 }
