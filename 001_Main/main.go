@@ -12,6 +12,7 @@ import (
 	"pointers"
 	"functions"
 	"datastructures"
+	"mapsObject"
 	)
 
 func main() {
@@ -32,4 +33,6 @@ func main() {
 	functions.FunctionsTest()
 
 	datastructures.DataStructures()
+
+	mapsObject.MapsTest()
 }
