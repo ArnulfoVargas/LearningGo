@@ -10,7 +10,10 @@ import (
 	functions "main/007_Functions"
 	datastructures "main/008_DataStructures"
 	mapsObject "main/009_Maps"
-	"github.com/mariomac/analizador" 
+	datatypesdefinition "main/010_DataTypesDefinition"
+	structs "main/011_Structs"
+
+	"github.com/mariomac/analizador"
 )
 
 func main() { 
@@ -26,4 +29,7 @@ func main() {
 
 	// Imported from Github
 	analizador.PrintEstadistica("Arnulfo")
+
+	datatypesdefinition.DataTypesDefinitionTest()
+	structs.StructsTest()
 }
