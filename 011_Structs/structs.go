@@ -123,5 +123,5 @@ func prismConstructor(options ...Option) RectangularPrism {
 func constructorTest(){
 	prism := prismConstructor(width(15), deep(25))
 
-	fmt.Printf("%#v", prism)
+	fmt.Printf("%#v\n", prism)
 }

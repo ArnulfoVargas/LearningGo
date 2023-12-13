@@ -12,6 +12,8 @@ import (
 	mapsObject "main/009_Maps"
 	datatypesdefinition "main/010_DataTypesDefinition"
 	structs "main/011_Structs"
+	interfaces "main/012_Interfaces"
+	iowriterreader "main/013_IOWriterReader"
 
 	"github.com/mariomac/analizador"
 )
@@ -32,4 +34,6 @@ func main() {
 
 	datatypesdefinition.DataTypesDefinitionTest()
 	structs.StructsTest()
+	interfaces.InterfacesTest()
+	iowriterreader.IOsTest()
 }
