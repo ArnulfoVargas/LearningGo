@@ -14,6 +14,7 @@ import (
 	structs "main/011_Structs"
 	interfaces "main/012_Interfaces"
 	iowriterreader "main/013_IOWriterReader"
+	goroutines "main/014_Goroutines"
 
 	"github.com/mariomac/analizador"
 )
@@ -36,4 +37,5 @@ func main() {
 	structs.StructsTest()
 	interfaces.InterfacesTest()
 	iowriterreader.IOsTest()
+	goroutines.GoroutinesTest()
 }
