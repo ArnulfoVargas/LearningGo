@@ -15,6 +15,7 @@ import (
 	interfaces "main/012_Interfaces"
 	iowriterreader "main/013_IOWriterReader"
 	goroutines "main/014_Goroutines"
+	channels "main/015_Channels"
 
 	"github.com/mariomac/analizador"
 )
@@ -38,4 +39,5 @@ func main() {
 	interfaces.InterfacesTest()
 	iowriterreader.IOsTest()
 	goroutines.GoroutinesTest()
+	channels.ChannelsTest()
 }
