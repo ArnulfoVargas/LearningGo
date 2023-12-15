@@ -17,6 +17,7 @@ import (
 	goroutines "main/014_Goroutines"
 	channels "main/015_Channels"
 
+	fetch "main/016.1_HttpServices"
 	"github.com/mariomac/analizador"
 )
 
@@ -40,4 +41,5 @@ func main() {
 	iowriterreader.IOsTest()
 	goroutines.GoroutinesTest()
 	channels.ChannelsTest()
+	fetch.FetchTest()
 }
