@@ -16,8 +16,10 @@ import (
 	iowriterreader "main/013_IOWriterReader"
 	goroutines "main/014_Goroutines"
 	channels "main/015_Channels"
+	jsonSerialization "main/017_JsonSerialization"
 
 	fetch "main/016.1_HttpServices"
+
 	"github.com/mariomac/analizador"
 )
 
@@ -42,4 +44,5 @@ func main() {
 	goroutines.GoroutinesTest()
 	channels.ChannelsTest()
 	fetch.FetchTest()
+	jsonSerialization.SerializationTest()
 }
