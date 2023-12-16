@@ -8,10 +8,6 @@ import (
 
 type Service struct{}
 
-type Quotes struct {
-	Quote string
-}
-
 func (serv *Service) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 
 	data := strings.Join(r.Header["Accept"], "")
