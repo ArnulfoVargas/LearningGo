@@ -14,7 +14,7 @@ type Student struct {
 }
 
 func main(){
-	db, err := sql.Open("postgres", "dbname=gotest sslmode=disable user=pc")
+	db, err := sql.Open("postgres", "dbname=gotest sslmode=disable user=postgres")
 	
 	if err != nil {
 		panic(fmt.Sprint(err))
@@ -27,6 +27,7 @@ Students (
 )	
 `)
 
+
 	if err != nil {
 		panic(fmt.Sprint(err))
 	}
@@ -36,7 +37,7 @@ Students (
 		Id: 4 ,
 		Grade: 9.8,
 	}
-
+  
 	err = InsertStudentToTable(db, stud)
 
 	if err != nil{
